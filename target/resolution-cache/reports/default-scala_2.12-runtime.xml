@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala_2.12"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170719020727"/>
+	<dependencies>
+		<module organisation="org.nd4j" name="nd4j-native">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103907" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="7538" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-native\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.4-rc3.10/nd4j-native-0.4-rc3.10.pom"/>
+				<caller organisation="default" name="scala_2.12" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nd4j-native" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="9627034" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-native\jars\nd4j-native-0.4-rc3.10-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.4-rc3.10/nd4j-native-0.4-rc3.10-windows-x86_64.jar"/>
+					</artifact>
+					<artifact name="nd4j-native" type="jar" ext="jar" extra-classifier="" status="no" details="" size="40357" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-native\jars\nd4j-native-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.4-rc3.10/nd4j-native-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-native-api">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="7113" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-native-api\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-native-api/0.4-rc3.10/nd4j-native-api-0.4-rc3.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-native" conf="default, compile, runtime, master" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="nd4j-native-api" type="jar" ext="jar" status="no" details="" size="9145" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-native-api\jars\nd4j-native-api-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native-api/0.4-rc3.10/nd4j-native-api-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-api">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103906" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nd4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="8247" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-api\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.4-rc3.10/nd4j-api-0.4-rc3.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-native" conf="default, compile, runtime, master" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="nd4j-api" type="jar" ext="jar" status="no" details="" size="620285" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-api\jars\nd4j-api-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.4-rc3.10/nd4j-api-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.projectlombok" name="lombok">
+			<revision name="1.16.4" status="release" pubdate="20150415021100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://projectlombok.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The MIT License" url="http://projectlombok.org/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="C:\Users\dhira\.ivy2\cache\org.projectlombok\lombok\ivy-1.16.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.4/lombok-1.16.4.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.16.4" rev-constraint-default="1.16.4" rev-constraint-dynamic="1.16.4" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1355970" time="0" location="C:\Users\dhira\.ivy2\cache\org.projectlombok\lombok\jars\lombok-1.16.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.4/lombok-1.16.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-buffer">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="5420" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-buffer\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-buffer/0.4-rc3.10/nd4j-buffer-0.4-rc3.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="nd4j-buffer" type="jar" ext="jar" status="no" details="" size="57913" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-buffer\jars\nd4j-buffer-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-buffer/0.4-rc3.10/nd4j-buffer-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco" name="javacpp">
+			<revision name="1.2.1" status="release" pubdate="20160526095131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacpp/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="3907" time="0" location="C:\Users\dhira\.ivy2\cache\org.bytedeco\javacpp\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/bytedeco/javacpp/1.2.1/javacpp-1.2.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="javacpp" type="maven-plugin" ext="jar" status="no" details="" size="293150" time="0" location="C:\Users\dhira\.ivy2\cache\org.bytedeco\javacpp\maven-plugins\javacpp-1.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacpp/1.2.1/javacpp-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-context">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103905" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="4991" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-context\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-context/0.4-rc3.10/nd4j-context-0.4-rc3.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="nd4j-context" type="jar" ext="jar" status="no" details="" size="7096" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-context\jars\nd4j-context-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-context/0.4-rc3.10/nd4j-context-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-common">
+			<revision name="0.4-rc3.10" status="release" pubdate="20160606103909" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="6488" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-common\ivy-0.4-rc3.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-common/0.4-rc3.10/nd4j-common-0.4-rc3.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-context" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="0.4-rc3.10" rev-constraint-default="0.4-rc3.10" rev-constraint-dynamic="0.4-rc3.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="nd4j-common" type="jar" ext="jar" status="no" details="" size="123035" time="0" location="C:\Users\dhira\.ivy2\cache\org.nd4j\nd4j-common\jars\nd4j-common-0.4-rc3.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-common/0.4-rc3.10/nd4j-common-0.4-rc3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.1" status="release" pubdate="20140315183400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<metadata-artifact status="no" details="" size="10526" time="0" location="C:\Users\dhira\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="412693" time="0" location="C:\Users\dhira\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.4.1" status="release" pubdate="20150108225800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="11124" time="0" location="C:\Users\dhira\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2035066" time="0" location="C:\Users\dhira\.ivy2\cache\org.apache.commons\commons-math3\jars\commons-math3-3.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613035203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="8540" time="0" location="C:\Users\dhira\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="C:\Users\dhira\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reflections" name="reflections">
+			<revision name="0.9.10" status="release" pubdate="20150516141738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ronmamo/reflections" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="WTFPL" url="http://www.wtfpl.net/"/>
+				<license name="The New BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="4168" time="0" location="C:\Users\dhira\.ivy2\cache\org.reflections\reflections\ivy-0.9.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reflections/reflections/0.9.10/reflections-0.9.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="0.9.10" rev-constraint-default="0.9.10" rev-constraint-dynamic="0.9.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="reflections" type="jar" ext="jar" status="no" details="" size="129763" time="0" location="C:\Users\dhira\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reflections/reflections/0.9.10/reflections-0.9.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="annotations">
+			<revision name="2.0.1" status="release" pubdate="20120730034801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="GNU Lesser Public License" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="2414" time="0" location="C:\Users\dhira\.ivy2\cache\com.google.code.findbugs\annotations\ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.9.10"/>
+				<artifacts>
+					<artifact name="annotations" type="jar" ext="jar" status="no" details="" size="74557" time="0" location="C:\Users\dhira\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.18.2-GA" status="release" pubdate="20140527222500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3108" time="0" location="C:\Users\dhira\.ivy2\cache\org.javassist\javassist\ivy-3.18.2-GA.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="3.18.2-GA" rev-constraint-default="3.18.2-GA" rev-constraint-dynamic="3.18.2-GA" callerrev="0.9.10"/>
+				<artifacts>
+					<artifact name="javassist" type="bundle" ext="jar" status="no" details="" size="714524" time="0" location="C:\Users\dhira\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140826001800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="5821" time="0" location="C:\Users\dhira\.ivy2\cache\com.google.guava\guava\ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.9.10"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2256213" time="0" location="C:\Users\dhira\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.10" status="release" pubdate="20150107014100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="4714" time="0" location="C:\Users\dhira\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.4-rc3.10"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32119" time="0" location="C:\Users\dhira\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.0.28.Final" status="release" pubdate="20150507210800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="15441" time="0" location="C:\Users\dhira\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.28.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.28.Final/netty-buffer-4.0.28.Final.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="4.0.28.Final" rev-constraint-default="4.0.28.Final" rev-constraint-dynamic="4.0.28.Final" callerrev="0.4-rc3.10"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="jar" ext="jar" status="no" details="" size="170235" time="0" location="C:\Users\dhira\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.28.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.28.Final/netty-buffer-4.0.28.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.0.28.Final" status="release" pubdate="20150507210700" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="13761" time="0" location="C:\Users\dhira\.ivy2\cache\io.netty\netty-common\ivy-4.0.28.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.28.Final/netty-common-4.0.28.Final.pom"/>
+				<caller organisation="io.netty" name="netty-buffer" conf="compile, runtime" rev="4.0.28.Final" rev-constraint-default="4.0.28.Final" rev-constraint-dynamic="4.0.28.Final" callerrev="4.0.28.Final"/>
+				<artifacts>
+					<artifact name="netty-common" type="jar" ext="jar" status="no" details="" size="421294" time="0" location="C:\Users\dhira\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.28.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-common/4.0.28.Final/netty-common-4.0.28.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413134911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\dhira\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="default" name="scala_2.12" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="C:\Users\dhira\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

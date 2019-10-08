@@ -1,0 +1,4 @@
+ls
+inspect scalaSource
+exit
+show unmanagedBase
